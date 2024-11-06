@@ -1,0 +1,28 @@
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(12, 29, 125, 1) 76%,
+    rgba(92, 36, 123, 1) 100%,
+    rgba(87, 10, 123, 1) 100%
+  );
+}
+
+
+.ProfileSection {
+  border: 1px black solid;
+  width:300px;
+  height:300px;
+  align-content: center;
+}
+
+.ProfileImage {
+  max-height: 200px;
+  max-width: 200px;
+}
