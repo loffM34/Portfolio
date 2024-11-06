@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import NamePlate from "./components/NamePlate";
 import AboutMe from "./components/AboutMe";
 import PersonalProjects from "./components/PersonalProjects";
+// yo
 function App() {
   return (
     <>
@@ -16,7 +17,6 @@ function App() {
         </div>
         <PersonalProjects />
       </div>
-
     </>
   );
 }
