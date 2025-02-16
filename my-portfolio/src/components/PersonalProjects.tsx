@@ -92,14 +92,16 @@ function PersonalProjects() {
                 ))}
               </p>
             </div>
-            <button
-              className="learnMore"
-              onClick={() => {
-                setOpenModal(true);
-              }}
-            >
-              <i className="bi bi-arrow-up-right-square-fill" />
-            </button>
+            <div className="learnMoreContainer">
+              <button
+                className="learnMore"
+                onClick={() => {
+                  setOpenModal(true);
+                }}
+              >
+                <i className="bi bi-arrow-up-right-square-fill" />
+              </button>
+            </div>
           </li>
         </ul>
 

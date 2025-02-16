@@ -1,5 +1,5 @@
 import "../styles/aboutMeStyles.css";
-import image from "../resources/tempPhoto.jpg";
+import image from "../resources/profilePic.jpg";
 
 function AboutMe() {
   return (
@@ -9,10 +9,11 @@ function AboutMe() {
           <img src={image} className="ProfileImage"></img>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-          adipisci atque assumenda voluptatibus quos minus possimus quidem
-          soluta natus facere ex modi ea sequi, voluptatem impedit deserunt? Id,
-          quisquam. Sed?
+          I'm a third-year Computer Science student at Stevens Institute of
+          Technology with an Associate of Science in Computer Science from
+          Brookdale Community College. Passionate about Artificial Intelligence,
+          Software Development, and Robotics, I'm eager to apply my skills to
+          innovative and develop impactful projects in the workforce
         </p>
       </div>
     </>

@@ -26,16 +26,6 @@ function NavBar() {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/Login">
-                  Log In
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/SignUp">
-                  Sign Up
-                </a>
-              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -44,20 +34,24 @@ function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Contact Us
+                  Contact
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="tel:7323226832">
-                      Call +(732) 322-6832
+                    <a
+                      className="dropdown-item"
+                      href="mailto:loffm300334@gmail.com"
+                    >
+                      Email: loffm300334@gmail.com
                     </a>
                   </li>
                   <li>
                     <a
                       className="dropdown-item"
-                      href="mailto:Company@companyEmail.com"
+                      href="https://github.com/loffM34"
+                      target="blank"
                     >
-                      Email Us At: Company@companyEmail.com
+                      Github: loffM34
                     </a>
                   </li>
                 </ul>

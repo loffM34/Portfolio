@@ -25,4 +25,5 @@
 .ProfileImage {
   max-height: 200px;
   max-width: 200px;
+  border-radius: 100px;
 }
